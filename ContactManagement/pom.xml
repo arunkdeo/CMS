@@ -12,7 +12,7 @@
 	<artifactId>ContactManagement</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Contact Management</name>
-	<description>Contact Management</description>
+	<description>Contact Management System</description>
 	<properties>
 		<java.version>11</java.version>
 	</properties>
