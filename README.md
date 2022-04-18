@@ -8,20 +8,22 @@
 	<li>NPM 6.14.3 or higher</li>
 	<li>IntelliJ or Eclipse or any java editor</li>
 	<li>VSCode or any other Javascript/html editor which you are comfirtable with</li>
+	
 </ul>
-Below are the steps to run this application in Development mode
+Below are the steps to run this application in Development mode </br>
 <Strong>Backend Service or Java Application</Strong>
 <ul>
 	<li>locate POM.xml file</li>
 	<li>Open/import pom.xml file as Maven project</li>
 	<li>Configure Maven into your workspace</li>
+	<li>allow your UI application URL in allowed CORS - app.config.allowed.hosts </li>
 	<li>Locate CMSApplication.java and run it<li>
 </ul>
 
-<Strong>UI Service or Java Application</Strong>
+<Strong>UI Service for Java Application</Strong>
 <ul>
 	<li>Open Cms-web</li>
-	<li>Replace URL - http://ramarun-aio:8080/cms with your url or http://localhost:8080/cms</li>
+	<li>Check your Java Service URL http://localhost:8080/cms</li>
 	<li>run - npm install</li>
 	<li>run - npm start<li>
 </ul>
