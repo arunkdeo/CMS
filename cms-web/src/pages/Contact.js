@@ -7,7 +7,7 @@ import ContactTable from "../components/ContactTable";
 import CmsAuthContext from "../store/cms-auth-context";
 import { getRemoteRequest } from "../auth/CMSActions";
 import { buildHeaders, isNonEmpty } from "../libs/utils";
-const BASE_API_URL = "http://ramarun-aio:8080/cms/";
+const BASE_API_URL = "http://localhost:8080/cms/";
 
 const Contact = () => {
   const [title, setTitle] = useState();
@@ -145,7 +145,7 @@ const Contact = () => {
    */
   const submitContactForm = (contactData) => {
     const requestOptions = buildHeaders("POST", authContext, contactData);        
-    const url = "http://ramarun-aio:8080/cms/contact/create";
+    const url = "http://localhost:8080/cms/contact/create";
     fetch(url, requestOptions)
       .then((response) => {
         console.log(
@@ -170,7 +170,7 @@ const Contact = () => {
           );
           setIsuccess(false);
         }
-        fetchContacts("http://ramarun-aio:8080/cms/contact");
+        fetchContacts("http://localhost:8080/cms/contact");
       })
       .catch((error) => {
         setResponseMessage(

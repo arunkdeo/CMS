@@ -8,7 +8,7 @@ import { getRemoteRequest } from "../auth/CMSActions";
 import { buildHeaders } from "../libs/utils"; 
 
 const Address = () => {
-  const BASE_API_URL = "http://ramarun-aio:8080/cms/";
+  const BASE_API_URL = "http://localhost:8080/cms/";
   const authContext = useContext(CmsAuthContext);
   const [contacts, setContacts] = useState([]);
   const [addressList, setAddressList] = useState([]);
@@ -174,7 +174,7 @@ const Address = () => {
 
   const submitAddressForm = (addressData) => {
     const requestOptions = buildHeaders('POST', authContext, addressData);        
-    const url = "http://ramarun-aio:8080/cms/address/create";
+    const url = "http://localhost:8080/cms/address/create";
     fetch(url, requestOptions)
       .then((response) => {
         console.log(
@@ -198,7 +198,7 @@ const Address = () => {
           setIsuccess(false);
         }
         fetchDataFromRemoteServer(
-          "http://ramarun-aio:8080/cms/address/contact/" + contactId,
+          "http://localhost:8080/cms/address/contact/" + contactId,
           "Address"
         );
       })

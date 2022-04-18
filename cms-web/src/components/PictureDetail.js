@@ -11,7 +11,7 @@ const PictureDetail = (props) => {
         title:'',
         description:''
     }
-  const BASE_API_URL = "http://ramarun-aio:8080/cms/";
+  const BASE_API_URL = "http://localhost:8080/cms/";
   
   const [photo, setPhoto] = useState(picture);
   

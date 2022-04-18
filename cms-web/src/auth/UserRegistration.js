@@ -3,7 +3,7 @@ import { Alert, Button, Form, Modal } from "react-bootstrap";
 import * as Icon from "react-feather";
 import { isNonEmpty } from "../libs/utils";
 
-const REGISTER_URL = "http://ramarun-aio:8080/cms/authenticate/register";
+const REGISTER_URL = "http://localhost:8080/cms/authenticate/register";
 
 const UserRegistration = (props) => {
   const [showError, setShowError] = useState(false);

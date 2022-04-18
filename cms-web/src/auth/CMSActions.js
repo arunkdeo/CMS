@@ -1,6 +1,6 @@
 import React from "react";
 
-const ROOT_URL = "http://ramarun-aio:8080/cms";
+const ROOT_URL = "http://localhost:8080/cms";
 
 export async function loginUser(loginPayload) {
   const requestOptions = {

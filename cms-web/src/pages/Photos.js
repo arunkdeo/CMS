@@ -7,7 +7,7 @@ import { buildHeaders } from "../libs/utils";
 import CmsAuthContext from "../store/cms-auth-context";
 
 const Photos = () => {
-  const BASE_API_URL = "http://ramarun-aio:8080/cms/";
+  const BASE_API_URL = "http://localhost:8080/cms/";
   const authContext = useContext(CmsAuthContext);
   const [contacts, setContacts] = useState([]);
   const [title, setTitle] = useState("");
@@ -95,7 +95,7 @@ const Photos = () => {
       }
     };
     
-    const url = "http://ramarun-aio:8080/cms/photo/add";
+    const url = "http://localhost:8080/cms/photo/add";
     fetch(url, requestOptions)
       .then((response) => {        
         console.log(
@@ -109,7 +109,7 @@ const Photos = () => {
               title
           );
           setIsuccess(true);
-          fetchDataFromRemoteServer('http://ramarun-aio:8080/cms/photo/contact/'+formData.get('contactId'));
+          fetchDataFromRemoteServer('http://localhost:8080/cms/photo/contact/'+formData.get('contactId'));
           
         } else {
           setResponseMessage(
