@@ -29,3 +29,9 @@
 /ContactManagement/target/
 ### VS Code ###
 /cms-web/.vscode/
+.idea
+.mvn
+.iws
+.iml
+.ipr
+/target/

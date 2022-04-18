@@ -1,0 +1,19 @@
+.login-form {  
+  width: 20rem;
+  height: 50rem;
+  align-items: center;
+  margin: auto;  
+}
+.login-card{
+    box-shadow: rgba(4, 113, 223, 0.8) 0px 8px 24px;
+    border-radius: 5px;    
+    border-style: solid; 
+    margin-top: 15rem;  
+}
+.login-card input{
+    margin-bottom: 10px;
+}
+.login-card button{
+    margin-bottom: 10px;
+}
+
