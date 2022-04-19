@@ -29,16 +29,14 @@ Below are the steps to run this application in Development mode </br>
 	<li>Open/import pom.xml file as Maven project</li>
 	<li>Configure Maven into your workspace</li>
 	<li>allow your UI application URL in allowed CORS - app.config.allowed.hosts </li>
-	<li>Locate CMSApplication.java and run it<li>
-</ul>
+	<li>Locate CMSApplication.java and run it<li></ul>
 
 <Strong>UI Service for Java Application</Strong>
 <ul>
 	<li>Open Cms-web</li>
 	<li>Check your Java Service URL http://localhost:8080/cms</li>
 	<li>run - npm install</li>
-	<li>run - npm start<li>
-</ul>
+	<li>run - npm start<li></ul>
 
 <Strong>if you encounter -</Strong>
  Plugin "react" was conflicted between "package.json » eslint-config-react-app  -- Then Open package.json in vscode and save it without making any change (ctrl+s) and then run npm start</br>
