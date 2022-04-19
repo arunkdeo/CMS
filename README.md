@@ -1,4 +1,5 @@
 # CMS
+<Strong>Note</Strong><u>This is a tutorial source code and not ready for production use. This software (CMS) source code can be used for training and learning purpose without any cost. No support or gurantee/warantee for this software product.</u>
 <Strong>Dependency </Strong>
 <ul>
 	<li>Java/Jdk 1.8 or higher</li>
