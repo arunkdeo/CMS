@@ -1,4 +1,7 @@
-# CMS
+<h1>Building Spring Boot, MongoDB and React.js Full Stack Web Application</h1>
+<hr/>
+#CMS - Contact Management System
+
 <Strong>Note :- </Strong></br><p><u>This is a tutorial source code and not ready for production use. This software (CMS) source code can be used for training and learning purpose without any cost. The purpose of this source code is to demonstrate how to integrate Spring boot + Mongo DB + React (Full stack development) with a full end to end example with multiple workflows, to those learner who are aspiring to become a full stack developer. No support or gurantee/warantee for this software product.</u></p>
 <Strong>Features of this Software</Strong></br>
 <strong>CMS - </strong> <i>Contact Management System</i> provides following features (few features may be added in future) -
@@ -37,7 +40,7 @@ Below are the steps to run this application in Development mode </br>
 	<li>Check your Java Service URL http://localhost:8080/cms</li>
 	<li>run - npm install</li>
 	<li>run - npm start<li></ul>
-
+	
 <Strong>if you encounter -</Strong>
  Plugin "react" was conflicted between "package.json » eslint-config-react-app  -- Then Open package.json in vscode and save it without making any change (ctrl+s) and then run npm start</br>
 
