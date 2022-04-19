@@ -1,5 +1,5 @@
 # CMS
-<Strong>Note :- </Strong></br><p><u>This is a tutorial source code and not ready for production use. This software (CMS) source code can be used for training and learning purpose without any cost. The purpose of this source code is to demonstrate how to integrate Spring boot + Mongo DB + React (Full stack development) with a full end to end example with multiple workflow, to those learner who are aspiring a full stack developer. No support or gurantee/warantee for this software product.</u></p>
+<Strong>Note :- </Strong></br><p><u>This is a tutorial source code and not ready for production use. This software (CMS) source code can be used for training and learning purpose without any cost. The purpose of this source code is to demonstrate how to integrate Spring boot + Mongo DB + React (Full stack development) with a full end to end example with multiple workflows, to those learner who are aspiring to become a full stack developer. No support or gurantee/warantee for this software product.</u></p>
 <Strong>Features of this Software</Strong></br>
 <strong>CMS - </strong> <i>Contact Management System</i> provides following features (few features may be added in future) -
 <ul>
